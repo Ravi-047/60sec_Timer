@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>60s Timer || Project</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <!-- Display the countdown timer  -->
+    <h2>Routine Starting in....</h2>
+    <div class="subheading">Subheading here</div>
+
+    <!-- main container  -->
+    <div class="container center">
+      <!-- container for the animated circular timer  -->
+      <div class="circle_container center">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="upper_circle"></div>
+      </div>
+
+      <!-- display the timer countdown in miutes and seconds  -->
+      <div class="timer_container center">
+        <div class="timer center"></div>
+      </div>
+    </div>
+
+    <!-- all the buttons to modify the timer  -->
+    <div class="allbutton">
+      <button class="add_time">Add (+10s)</button>
+      <button class="skip_time">Skip (-5s)</button>
+      <button class="clear_time">Clear</button>
+      <button class="restart_time">Restart</button>
+    </div>
+
+    <!-- script for the timer  -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
