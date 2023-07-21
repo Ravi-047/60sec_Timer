@@ -60,3 +60,6 @@ To start using the circular timer, simply include the necessary files as describ
 - To skip 5 seconds from the timer, click on the "Skip(-5s)" button.
 - To reset the timer to zero, click on the "Clear" button.
 - To restart the timer to its initial value, click on the "Restart" button.
+
+![image](https://github.com/Ravi-047/60sec_Timer/assets/103764080/00e3c921-8d43-4e05-89d4-a785fd1c113e)
+
